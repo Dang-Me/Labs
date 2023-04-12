@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ShopApi.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopApi.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopApi.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShopApi.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../ShopApi.Contracts/ShopApi.Contracts.csproj",
+      "msbuildProject": "../ShopApi.Contracts/ShopApi.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ShopApi.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dang.me\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Dang.me\\Source\\Repos\\Labs\\ShopApi-lab-1\\ShopApi.LoggerService\\ShopApi.LoggerService.csproj",
+      "projectName": "ShopApi.LoggerService",
+      "projectPath": "C:\\Users\\Dang.me\\Source\\Repos\\Labs\\ShopApi-lab-1\\ShopApi.LoggerService\\ShopApi.LoggerService.csproj",
+      "packagesPath": "C:\\Users\\Dang.me\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dang.me\\Source\\Repos\\Labs\\ShopApi-lab-1\\ShopApi.LoggerService\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Dang.me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Dang.me\\Source\\Repos\\Labs\\ShopApi-lab-1\\ShopApi.Contracts\\ShopApi.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Dang.me\\Source\\Repos\\Labs\\ShopApi-lab-1\\ShopApi.Contracts\\ShopApi.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
